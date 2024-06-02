@@ -27,36 +27,35 @@ class Userbot(Client):
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
-            no_updates=False,
-            plugins=dict(root="PBXMUSIC.plugins.USERBOT"),
+            no_updates=true,
         )
         self.two = Client(
             name="PBXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
-            no_updates=False,
+            no_updates=true,
         )
         self.three = Client(
             name="PBXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
-            no_updates=False,
+            no_updates=true,
         )
         self.four = Client(
             name="PBXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
-            no_updates=False,
+            no_updates=true,
         )
         self.five = Client(
             name="PBXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
-            no_updates=False,
+            no_updates=true,
         )
 
     async def start(self):
