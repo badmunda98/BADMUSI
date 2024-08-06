@@ -10,9 +10,6 @@ from BADMUSIC import app
 from BADMUSIC.core.call import BAD
 from BADMUSIC.utils import bot_sys_stats
 from BADMUSIC.utils.decorators.language import language
-from BADMUSIC.utils.inline.play import close_keyboard
-from BADMUSIC.utils.inline.start import BOT_USERNAME
-
 
 @app.on_message(filters.command(["ping"]) & SUDOERS)
 @language
