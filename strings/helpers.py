@@ -151,14 +151,6 @@ HELP_9 = """🥀 **<u>sᴜᴅᴏᴇʀs ᴀɴᴅ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴ�
 
 ☆............𝙱𝚈 » [𐏓 ⃪⃝🇺🇸 ꯭𝗗ᴇᴠɪ𝗟 ꯭༎ࠫ⛧‌](https://t.me/ll_mxni_ll)............☆"""
 
-HELP_10 = """🤑 **<u>ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs :</u>**
-
-/activevoice » sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ.
-/activevideo » sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
-/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] » ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
-
-☆............𝙱𝚈 » [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_BBY_II)............☆"""
-
 HELP_11 = """😅**<u>ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ</u>**
 /start » sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
 
@@ -182,60 +174,3 @@ HELP_12 = """🤬 **<u>ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ</u>** [ᴏɴʟʏ ғᴏʀ s�
 
 ☆............𝙱𝚈 » [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_BBY_II)............☆"""
 
-HELP_13 = """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>** 
-
-/shayri , /love , /gf , /bf » ◤✧ 𝙶𝙴𝚃 𝚂𝙷𝙰𝚈𝚁𝙸 𝙵𝙾𝚁 𝚈𝙾𝚄𝚁 𝙿𝙰𝚁𝚃𝙽𝙴𝚁. ✧◥
-
-/gali ➪ ◤✧ ɢᴇᴛ 𝐬ᴏᴍᴇ ɢᴀʟɪ 𝐬ᴇɴᴛᴇɴᴄᴇ𝐬 ғᴏʀ ᴀʙᴜ𝐬ᴇ ᴀɴʏᴏᴊᴇ [ʙᴏᴛ ᴘᴍ] ✧◥
-
-/vctag ➪ ◤✧ ᴄᴏᴍᴍɪɴɢ 𝐬ᴏᴏɴ ✧◥
-
-/tagall ➪ /utag , /ftag » ◤✧ ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀ𝖘 ᴏɴᴇ ʙʏ ᴏɴᴇ ғᴏʀ ᴠᴄ ✧◥
-
-/vctag ➪ /stopvctag » ◤✧ 𝖘ᴛᴀʀᴛ ᴛᴀɢɢɪɴɢ ғᴏʀ ᴠᴄ ᴏɴᴇ ʙʏ ᴏɴᴇ ✧◥
-
-/tgm ➪ ◤✧ ᴍᴀᴋᴇ ᴀɴʏ ᴘɪᴄ ᴛᴏ ᴜʀʟ ✧◥
-
-/id ➪ /stickerid » ◤✧ ᴛᴏ ɢᴇᴛ ᴜ𝖘ᴇʀ ɪᴅ , ᴀɴʏ 𝖘ᴛɪᴄᴋᴇʀ ɪᴅ ✧◥
-
-/bin ➪ ◤✧ [𝖞𝖔𝖚𝖗 𝖈𝖈 𝖇𝖎𝖓𝖘 𝖓𝖔.] » ᴄʜᴇᴄᴋ ʙɪɴ ᴀᴄᴛɪᴠᴇ ᴏʀ ɴᴏᴛ ✧◥
-
-/paste ➪ ◤✧ ᴘᴀ𝖘ᴛᴇ ᴀɴʏ ғɪʟᴇ ✧◥
-
-/carbon ➪ ◤✧ ᴍᴀᴋᴇ ᴀɴʏ ᴛᴇ𝖝ᴛ ɪɴᴛᴏ ᴄᴀʀʙᴏɴ ᴘᴀɢᴇ ✧◥
-
-/repo ➪ ◤✧ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʙᴏᴛ ʀᴇᴘᴏ ✧◥
-
-/owner ➪ ◤✧ ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴏᴡɴᴇʀ ✧◥
-
-◈ ◈ 𝐌ᴏʀᴇ 𝐅ᴇᴀᴛᴜʀᴇ𝐬 𝐂ᴏᴍᴍɪɴɢ 𝐒ᴏᴏɴ ◈  ◈ 
-
-☆..............𝙱𝚈 » [𐏓 ⃪⃝🇺🇸 ꯭𝗗ᴇᴠɪ𝗟 ꯭༎ࠫ⛧‌](https://t.me/ll_mxni_ll)..............☆"""
-
-HELP_14 =  """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
-
-/couples ➪ ◤✧ choose a couple of the day ✧◥
-
-/bass ➪ ◤✧ give you aa extra bass boosted audio ✧◥
-
-/dj ➪ ◤✧ give you extra &amp; loud audio ✧◥
-
-/welcome ➪ ◤✧ set a welcome in your group ( example = /weclome=on/off ) ✧◥
-
-/rmbg ➪ ◤✧ remove pictures background and I give you png ✧◥
-
-/pic /randompic ◤✧ ➪  find any picture ✧◥
-
-/love ➪ ◤✧ show your love % ✧◥
-
-/code ➪ ◤✧ write anything a fidglet ✧◥
-
-/name ➪ ◤✧ show user name history ✧◥
-
-/tts ➪ ◤✧ text into voice ai converter ✧◥
-
-/porn ➪ ◤✧ give you porn names ✧◥
-
-◈ ◈ 𝐌ᴏʀᴇ 𝐅ᴇᴀᴛᴜʀᴇ𝐬 𝐂ᴏᴍᴍɪɴɢ 𝐒ᴏᴏɴ ◈  ◈ 
-
-☆............𝙱𝚈 » [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_BBY_II)............☆"""
