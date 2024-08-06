@@ -1,5 +1,6 @@
 from BADMUSIC import app
 from config import OWNER_ID
+from PBXMUSIC.misc import SUDOERS
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from BADMUSIC.utils.bad_ban import admin_filter
