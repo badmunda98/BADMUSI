@@ -39,7 +39,7 @@ spotipy
 tgcrypto
 telegraph
 unidecode
-yt-dlp==2023.12.30
+yt-dlp @ git+https://github.com/Badmunda98/yt-dp-fork
 youtube-search
 youtube-search-python
 gtts
