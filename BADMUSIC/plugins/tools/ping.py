@@ -7,7 +7,7 @@ from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 import config
 from strings import get_command
 from BADMUSIC import app
-from BADMUSIC.core.call import PBX
+from BADMUSIC.core.call import BAD
 from BADMUSIC.utils import bot_sys_stats
 from BADMUSIC.utils.decorators.language import language
 from BADMUSIC.utils.inline.play import close_keyboard
@@ -22,7 +22,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"],
     )
     start = datetime.now()
-    pytgping = await Vip.ping()
+    pytgping = await BADMUSIC.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
