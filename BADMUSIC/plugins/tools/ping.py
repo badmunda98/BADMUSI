@@ -7,7 +7,7 @@ from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 import config
 from strings import get_command
 from BADMUSIC import app
-from BADMUSIC.core.call import Vip
+from BADMUSIC.core.call import PBX
 from BADMUSIC.utils import bot_sys_stats
 from BADMUSIC.utils.decorators.language import language
 from BADMUSIC.utils.inline.play import close_keyboard
