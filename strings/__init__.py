@@ -5,6 +5,23 @@ import yaml
 
 languages = {}
 languages_present = {}
+commands = {}
+
+
+def get_command(value: str) -> List:
+    return commands["command"][value]
+
+
+def get_string(lang: str):
+    return languages[lang]
+
+
+for filename in os.listdir(r"./strings"):
+    if filename.endswith(".yml"):
+        language_name = filename[:-4]
+        commands[language_name] = yaml.safe_load(
+            open(r"./strings/" + filename, encoding="utf8")
+        )
 
 
 def get_string(lang: str):
