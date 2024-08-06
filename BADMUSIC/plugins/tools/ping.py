@@ -1,81 +1,98 @@
 from datetime import datetime
+
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
+import config
+from strings import get_command
 from BADMUSIC import app
-from BADMUSIC.core.call import BAD
+from BADMUSIC.core.call import Vip
 from BADMUSIC.utils import bot_sys_stats
 from BADMUSIC.utils.decorators.language import language
-from BADMUSIC.utils.inline import supp_markup
-from config import BANNED_USERS, PING_IMG_URL
-import aiohttp
-import asyncio
-from io import BytesIO
-from BADMUSIC import app
-from pyrogram import filters
+from BADMUSIC.utils.inline.play import close_keyboard
+from BADMUSIC.utils.inline.start import BOT_USERNAME
+### Commands
+PING_COMMAND = get_command("PING_COMMAND")
 
 
-
-async def make_carbon(code):
-    url = "https://carbonara.solopov.dev/api/cook"
-    async with aiohttp.ClientSession() as session:
-        async with session.post(url, json={"code": code}) as resp:
-            image = BytesIO(await resp.read())
-    image.name = "carbon.png"
-    return image
-
-@app.on_message(filters.command("ping", prefixes=["/"]) & ~BANNED_USERS)
+@app.on_message(
+    filters.command(PING_COMMAND)
+)
 @language
 async def ping_com(client, message: Message, _):
-    PING_IMG_URL = "https://telegra.ph/file/7bb907999ea7156227283.jpg"
-    captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
-    response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
-    await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
-    await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**")
-    await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ..**")
-    await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
-    await asyncio.sleep(2)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ....**")
-    await asyncio.sleep(2)
-    await response.edit_caption("**📡sʏsᴛᴇᴍ ᴅᴀᴛᴀ ᴀɴᴀʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ !**")
-    await asyncio.sleep(3)
-    await response.edit_caption("**📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
+    response = await message.reply_photo(
+        photo=PING_IMG_URL,
+        caption=_["ping_1"],
+    )
     start = datetime.now()
-    pytgping = await BAD.ping()
+    pytgping = await Vip.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
-    text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
-    carbon = await make_carbon(text)
-    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 ʙᴀᴅ...ʙᴀᴅ...ʙᴀʙʏ💞**"
-    await message.reply_photo((carbon), caption=captions,
-    reply_markup=InlineKeyboardMarkup(
+    await response.edit_text(
+        _["ping_3"])
+    await response.edit_text(
+        _["ping_4"])
+    await response.edit_text(
+        _["ping_2"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+       _["ping_5"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_6"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_7"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_8"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_9"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_10"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_11"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ))
+    await response.edit_text(
+        _["ping_12"].format(
+            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
+        ),
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text="✚  𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏  ✚",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/Devils_Hell_0",
+                text="♦️𝐆𝐑𝐎𝐔𝐏♦️", url=f"https://t.me/THE_DRAMA_CLUB_01",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/ll_THE_BAD_BOT_ll",
+                text="♦️𝐌𝐎𝐑𝐄♦️", url=f"https://t.me/BAD_MUNDA_0",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❅ ʜᴇʟᴘ ❅", callback_data="settings_back_helper"
+                text="⚙️ 𝐇𝐄𝐋𝐏 ⚙️", callback_data="settings_back_helper"
             )
         ],
     ]
     ),
-        )
-    await response.delete()
-  
+)
+    
+        
