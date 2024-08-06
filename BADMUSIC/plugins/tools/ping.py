@@ -11,7 +11,7 @@ from BADMUSIC.core.call import BAD
 from BADMUSIC.utils import bot_sys_stats
 from BADMUSIC.utils.decorators.language import language
 
-@app.on_message(filters.command(["ping"]) & SUDOERS)
+@app.on_message(filters.command(["ping"]))
 @language
 async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
