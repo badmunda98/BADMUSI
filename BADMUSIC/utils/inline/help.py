@@ -25,66 +25,62 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="🍁 ᴀᴅᴍɪɴ 🍁",
+                    text="ᴀᴅᴍɪɴ",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="🔺ᴀᴜᴛʜ🔺",
+                    text="ᴀᴜᴛʜ",
                     callback_data="help_callback hb2",
                 ),
             
             ],
             [
                 InlineKeyboardButton(
-                    text="♨️ ʙʟᴏᴄᴋ ♨️",
+                    text="ʙʟᴏᴄᴋ",
                     callback_data="help_callback hb3",
                 ),
                 InlineKeyboardButton(
-                    text="📣 ɢᴄᴀsᴛ 📣",
+                    text="ɢᴄᴀsᴛ",
                     callback_data="help_callback hb4",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🚫 ɢʙᴀɴ 🚫",
+                    text="ɢʙᴀɴ",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
-                    text="🍷ʟʏʀɪᴄs🍷",
+                    text="ʟʏʀɪᴄs",
                     callback_data="help_callback hb5",
                 ),
             ],
                         
             [
                 InlineKeyboardButton(
-                    text="🎙️ ᴘʟᴀʏʟɪsᴛ 🎙️",
+                    text="ᴘʟᴀʏʟɪsᴛ",
                     callback_data="help_callback hb6",
                 ),
                 InlineKeyboardButton(
-                    text="🎸ᴠᴏɪᴄᴇ-ᴄʜᴀᴛ 🎸",
+                    text="ᴠᴏɪᴄᴇ-ᴄʜᴀᴛ ",
                     callback_data="help_callback hb10",
                 ),
             ],
             [
-                            InlineKeyboardButton(text="👻 ʙᴀᴅ 👻", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
-                            InlineKeyboardButton(text="💥 ᴅᴇᴠɪʟ 💥", url=f"https://t.me/ll_PBX_DEVIL_ll"),
-            ],
-            [
            
                 InlineKeyboardButton(
-                    text="🕹️ ᴘʟᴀʏ 🕹️",
+                    text="ᴘʟᴀʏ",
                     callback_data="help_callback hb8",
                 ),
             
             
                 InlineKeyboardButton(
-                    text="🍸sᴜᴅᴏ 🍸",
+                    text="sᴜᴅᴏ",
                     callback_data="help_callback hb9",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="⚜️ sᴛᴀʀᴛ ⚜️",
+                    text="sᴛᴀʀᴛ",
                     callback_data="help_callback hb11",
                 ),
             ],
@@ -119,7 +115,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🎭 𝐇𝐄𝐋𝐏 🎭",
+                text="ʜᴇʟᴘ",
                 callback_data="settings_back_helper",
             ),
         ],
