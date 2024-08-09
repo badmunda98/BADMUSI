@@ -43,7 +43,7 @@ SUDO_USERS = [6352107773]
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/badmunda011/BADMUSI",
+    "https://github.com/badmunda98/BADMUSI",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
